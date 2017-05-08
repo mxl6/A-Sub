@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to The A-Sub Repository!
 
 You can use the [editor on GitHub](https://github.com/mxl6/A-Sub/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
