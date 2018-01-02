@@ -1,0 +1,113 @@
+<body>
+<div id="header">
+<div id="org_title">
+
+<!-- this is where you change the organization name at the top of every page. Please leave it within the h1 tags to maintain styling. If you would like to upload a logo it can also go in here by using html -->
+
+<h1>
+Risley Arts Subcommittee
+</h1>
+
+</div>
+</div>
+<div id="content_wrapper">
+
+<!-- this is the vertical navigation in the left sidebar for your site. to add a link simply re-create one of the lines that begins with <li> and ends with </li>, inside will be a link using the quick url format for OrgSync Links. More information can be found in the website builder help -->
+
+<div id="navigation">
+<ul>
+<li><a href="[[page:home]]">Home</a></li>
+<li><a href="[[page:Managers]]">Managers and Hours</a></li>
+<li><a href="[[page:Spaces]]">See our spaces!</a></li>
+<li><a href="[[page:Gallery]]">Online Gallery</a></li>
+<li><a href="[[page:Join]]">Join Us!</a></li>
+<li><a href="[[page:Links]]">Links</a></li>
+<li><a href="[[page:Calendar]]">Calendar</a></li>
+<li><a href="[[page:Minutes]]">Fall 2017 A-Sub Minutes</a></li>
+<li><p><a style="color:purple; bold;" href="https://orgsync.com/164571/chapter">A-Sub Orgsync Portal</a></p></li>
+<ul>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 12px;
+    display: none;
+    background-color: white;
+}
+</style>
+</head>
+<body>
+
+<button class="accordion">About Us</button>
+<div class="panel">
+  <p>
+<li><a href="[[page:Past]]">History and Problems We Address</a></li>
+<li><a href="[[page:Present]]">Meeting Agenda Solutions We Present</a></li>
+<li><a href="[[page:Future]]">Future Directions</a></li>
+<li><a href="[[page:Place]]">Where We Are Within Risley</a></li>
+<li><a href="[[page:Officers]]">Officers</a></li>
+</p>
+</div>
+<button class="accordion">For Officers and Head Managers</button>
+<div class="panel">
+  <p>
+<li><a href="[[page:DFA]]">DFA Information</a></li>
+<li><a href="[[page:EHS]]">EHS Information</a></li>
+<li><a href="[[page:IPP]]">IPP Information</a></li>
+<li><a href="[[page:Kommittee]]"> Kommittee Information</a></li>
+<li><a href="[[page:SAFC]]">SAFC Information</a></li>
+</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+</div>
+<div id="content">
+
+
+<div id="leftside">
+
